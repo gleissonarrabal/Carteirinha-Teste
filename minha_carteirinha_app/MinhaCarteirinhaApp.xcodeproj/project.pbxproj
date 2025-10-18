@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07F861A680F5B00A75B9A /* MinhaCarteirinhaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F851A680F5B00A75B9A /* MinhaCarteirinhaApp.swift */; };
+		13B07F871A680F5B00A75B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F871A680F5B00A75B9A /* ContentView.swift */; };
+		13B07F881A680F5B00A75B9A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F881A680F5B00A75B9A /* LoginView.swift */; };
+		13B07F891A680F5B00A75B9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F891A680F5B00A75B9A /* HomeView.swift */; };
+		13B07F901A680F5B00A75B9A /* MyIDCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F901A680F5B00A75B9A /* MyIDCardView.swift */; };
+		13B07F911A680F5B00A75B9A /* IDCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F911A680F5B00A75B9A /* IDCardViewModel.swift */; };
+		13B07F921A680F5B00A75B9A /* QRCodeFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F921A680F5B00A75B9A /* QRCodeFullScreenView.swift */; };
+		13B07F931A680F5B00A75B9A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F931A680F5B00A75B9A /* ImagePicker.swift */; };
+		13B07F941A680F5B00A75B9A /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F941A680F5B00A75B9A /* ImageSaver.swift */; };
+		13B07F951A680F5B00A75B9A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F951A680F5B00A75B9A /* SplashView.swift */; };
+		13B07F961A680F5B00A75B9A /* MyDisciplinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F961A680F5B00A75B9A /* MyDisciplinesView.swift */; };
+		13B07F971A680F5B00A75B9A /* NoticesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F971A680F5B00A75B9A /* NoticesView.swift */; };
+		13B07F981A680F5B00A75B9A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F981A680F5B00A75B9A /* CalendarView.swift */; };
+		13B07F991A680F5B00A75B9A /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B07F991A680F5B00A75B9A /* SupportView.swift */; };
+		13B07FA01A680F5B00A75B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FA11A680F5B00A75B9A /* Assets.xcassets */; };
+		13B07FA31A680F5B00A75B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FA41A680F5B00A75B9A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B07F851A680F5B00A75B9A /* MinhaCarteirinhaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaCarteirinhaApp.swift; sourceTree = "<group>"; };
+		13B07F871A680F5B00A75B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13B07F881A680F5B00A75B9A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LoginView.swift; sourceTree = "<group>"; };
+		13B07F891A680F5B00A75B9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/HomeView.swift; sourceTree = "<group>"; };
+		13B07F901A680F5B00A75B9A /* MyIDCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MyIDCardView.swift; sourceTree = "<group>"; };
+		13B07F911A680F5B00A75B9A /* IDCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/IDCardViewModel.swift; sourceTree = "<group>"; };
+		13B07F921A680F5B00A75B9A /* QRCodeFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/QRCodeFullScreenView.swift; sourceTree = "<group>"; };
+		13B07F931A680F5B00A75B9A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ImagePicker.swift; sourceTree = "<group>"; };
+		13B07F941A680F5B00A75B9A /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ImageSaver.swift; sourceTree = "<group>"; };
+		13B07F951A680F5B00A75B9A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SplashView.swift; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MyDisciplinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MyDisciplinesView.swift; sourceTree = "<group>"; };
+		13B07F971A680F5B00A75B9A /* NoticesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/NoticesView.swift; sourceTree = "<group>"; };
+		13B07F981A680F5B00A75B9A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/CalendarView.swift; sourceTree = "<group>"; };
+		13B07F991A680F5B00A75B9A /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SupportView.swift; sourceTree = "<group>"; };
+		13B07FA11A680F5B00A75B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13B07FA21A680F5B00A75B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = "text.plist.xml"; path = Info.plist; sourceTree = "<group>"; };
+		13B07FA41A680F5B00A75B9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F821A680F5B00A75B9A /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07F7E1A680F5B00A75B9A = {isa = PBXGroup; children = (
+			13B07F851A680F5B00A75B9A /* MinhaCarteirinhaApp.swift */,
+			13B07F871A680F5B00A75B9A /* ContentView.swift */,
+			13B07F951A680F5B00A75B9A /* SplashView.swift */,
+			13B07F881A680F5B00A75B9A /* LoginView.swift */,
+			13B07F891A680F5B00A75B9A /* HomeView.swift */,
+			13B07F901A680F5B00A75B9A /* MyIDCardView.swift */,
+			13B07F961A680F5B00A75B9A /* MyDisciplinesView.swift */,
+			13B07F971A680F5B00A75B9A /* NoticesView.swift */,
+			13B07F981A680F5B00A75B9A /* CalendarView.swift */,
+			13B07F991A680F5B00A75B9A /* SupportView.swift */,
+			13B07F911A680F5B00A75B9A /* IDCardViewModel.swift */,
+			13B07F921A680F5B00A75B9A /* QRCodeFullScreenView.swift */,
+			13B07F931A680F5B00A75B9A /* ImagePicker.swift */,
+			13B07F941A680F5B00A75B9A /* ImageSaver.swift */,
+			13B07FA11A680F5B00A75B9A /* Assets.xcassets */,
+			13B07FA21A680F5B00A75B9A /* Info.plist */,
+			13B07FA41A680F5B00A75B9A /* LaunchScreen.storyboard */,
+		);
+		name = MinhaCarteirinhaApp;
+		sourceTree = "<group>";
+	};
+		13B07F7D1A680F5B00A75B9A = {isa = PBXGroup; children = (
+			13B07F7E1A680F5B00A75B9A /* MinhaCarteirinhaApp */,
+			13B07F831A680F5B00A75B9A /* Products */,
+		);
+		mainGroup = 13B07F7D1A680F5B00A75B9A;
+		sourceTree = "<group>";
+	};
+		13B07F831A680F5B00A75B9A /* Products */ = {isa = PBXGroup; children = (
+			13B07F841A680F5B00A75B9A /* MinhaCarteirinhaApp.app */,
+		);
+		name = Products;
+		sourceTree = "<group>";
+	};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F841A680F5B00A75B9A /* MinhaCarteirinhaApp.app */ = {isa = PBXNativeTarget; name = MinhaCarteirinhaApp; productName = MinhaCarteirinhaApp; productType = "com.apple.product-type.application"; };
+		13B07F7F1A680F5B00A75B9A /* MinhaCarteirinhaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07FA51A680F5B00A75B9A /* Build configuration list for PBXNativeTarget \"MinhaCarteirinhaApp\" */;
+			buildPhases = (
+				13B07F801A680F5B00A75B9A /* Sources */,
+				13B07F811A680F5B00A75B9A /* Resources */,
+				13B07F821A680F5B00A75B9A /* Frameworks */,
+			);
+			dependencies = (
+			);
+			name = MinhaCarteirinhaApp;
+			productName = MinhaCarteirinhaApp;
+			productReference = 13B07F841A680F5B00A75B9A /* MinhaCarteirinhaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B07F7C1A680F5B00A75B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Seu Nome";
+				TargetAttributes = {
+					13B07F7F1A680F5B00A75B9A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 13B07FA61A680F5B00A75B9A /* Build configuration list for PBXProject \"MinhaCarteirinhaApp\" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B07F7D1A680F5B00A75B9A;
+			productRefGroup = 13B07F831A680F5B00A75B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F7F1A680F5B00A75B9A /* MinhaCarteirinhaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F811A680F5B00A75B9A /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+			13B07FA01A680F5B00A75B9A /* Assets.xcassets in Resources */,
+			13B07FA31A680F5B00A75B9A /* LaunchScreen.storyboard in Resources */,
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F801A680F5B00A75B9A /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			13B07F861A680F5B00A75B9A /* MinhaCarteirinhaApp.swift in Sources */,
+			13B07F871A680F5B00A75B9A /* ContentView.swift in Sources */,
+			13B07F881A680F5B00A75B9A /* LoginView.swift in Sources */,
+			13B07F891A680F5B00A75B9A /* HomeView.swift in Sources */,
+			13B07F901A680F5B00A75B9A /* MyIDCardView.swift in Sources */,
+			13B07F911A680F5B00A75B9A /* IDCardViewModel.swift in Sources */,
+			13B07F921A680F5B00A75B9A /* QRCodeFullScreenView.swift in Sources */,
+			13B07F931A680F5B00A75B9A /* ImagePicker.swift in Sources */,
+			13B07F941A680F5B00A75B9A /* ImageSaver.swift in Sources */,
+			13B07F951A680F5B00A75B9A /* SplashView.swift in Sources */,
+			13B07F961A680F5B00A75B9A /* MyDisciplinesView.swift in Sources */,
+			13B07F971A680F5B00A75B9A /* NoticesView.swift in Sources */,
+			13B07F981A680F5B00A75B9A /* CalendarView.swift in Sources */,
+			13B07F991A680F5B00A75B9A /* SupportView.swift in Sources */,
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07FA71A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUNDLE_IDENTIFIER = "com.seunome.minhacarteirinha";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MinhaCarteirinhaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seunome.minhacarteirinha";
+				PRODUCT_NAME = "MinhaCarteirinhaApp";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13B07FA81A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUNDLE_IDENTIFIER = "com.seunome.minhacarteirinha";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MinhaCarteirinhaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seunome.minhacarteirinha";
+				PRODUCT_NAME = "MinhaCarteirinhaApp";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07FA51A680F5B00A75B9A /* Build configuration list for PBXNativeTarget \"MinhaCarteirinhaApp\" */ = {isa = XCConfigurationList; buildConfigurations = (
+			13B07FA71A680F5B00A75B9A /* Debug */,
+			13B07FA81A680F5B00A75B9A /* Release */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+		13B07FA61A680F5B00A75B9A /* Build configuration list for PBXProject \"MinhaCarteirinhaApp\" */ = {isa = XCConfigurationList; buildConfigurations = (
+			13B07FA71A680F5B00A75B9A /* Debug */,
+			13B07FA81A680F5B00A75B9A /* Release */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B07F7C1A680F5B00A75B9A /* Project object */;
+}
+
