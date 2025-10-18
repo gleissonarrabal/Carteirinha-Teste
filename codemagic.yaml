@@ -5,10 +5,28 @@ workflows:
       xcode: latest
     scripts:
       - |
-        echo "🚀 Iniciando build do app Minha Carteirinha"
+        set -e
+        echo "📄 Criando ExportOptions.plist (sem assinatura)"
+        cat > /Users/builder/export_options.plist << 'EOF'
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+        <plist version="1.0">
+        <dict>
+          <key>method</key><string>development</string>
+          <key>signingStyle</key><string>manual</string>
+          <key>stripSwiftSymbols</key><true/>
+          <key>compileBitcode</key><false/>
+          <key>thinning</key><string>&lt;none&gt;</string>
+          <key>destination</key><string>export</string>
+        </dict>
+        </plist>
+        EOF
+
+        echo "🚀 Iniciando build do app Minha Carteirinha (unsigned)"
         xcode-project build-ipa \
           --project minha_carteirinha_app/MinhaCarteirinhaApp.xcodeproj \
           --scheme MinhaCarteirinhaApp \
-          --archive-flags "-destination 'generic/platform=iOS'"
+          --archive-flags "-destination 'generic/platform=iOS'" \
+          --export-options-plist /Users/builder/export_options.plist \
+          --xcargs "CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="
     artifacts:
-      - build/ios/ipa/*.ipa
