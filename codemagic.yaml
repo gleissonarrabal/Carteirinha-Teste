@@ -1,0 +1,14 @@
+workflows:
+  ios_unsigned:
+    name: iOS unsigned build (Minha Carteirinha)
+    environment:
+      xcode: latest
+    scripts:
+      - |
+        echo "🚀 Iniciando build do app Minha Carteirinha"
+        xcode-project build-ipa \
+          --project minha_carteirinha_app/MinhaCarteirinhaApp.xcodeproj \
+          --scheme MinhaCarteirinhaApp \
+          --archive-flags "-destination 'generic/platform=iOS'"
+    artifacts:
+      - build/ios/ipa/*.ipa
